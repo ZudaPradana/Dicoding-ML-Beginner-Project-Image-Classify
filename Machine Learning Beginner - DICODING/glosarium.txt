@@ -1,0 +1,30 @@
+-one hot encoding = merubah nilai kategorik ke numerik (regresi, svm)
+-outlier = dalam statistik nilai jauh berbeda dari nilai kumpulan lainnya (kesalahan pengumpulan data atau meman punya nilai unik)
+-Standardization = proses konversi nilai-nilai dari suatu fitur sehingga nilai-nilai tersebut memiliki skala yang sama. Z score adalah metode paling populer untuk standardisasi di mana setiap nilai pada sebuah atribut numerik akan dikurangi dengan rata-rata dan dibagi dengan standar deviasi dari seluruh nilai pada sebuah kolom atribut.
+-Menentukan parameter random_state bertujuan untuk dapat memastikan bahwa hasil pembagian dataset konsisten dan memberikan data yang sama setiap kali model dijalankan. Jika tidak ditentukan, maka tiap kali melakukan split, kita akan mendapatkan data train dan tes berbeda, yang juga akan membuat akurasi model ML menjadi berbeda tiap kali di-run.
+-Centroid adalah sebuah sampel pada data yang menjadi pusat dari sebuah klaster
+-Variance adalah persentase jumlah sampel pada tiap klaster
+-tujuan dari PCA adalah mengurangi jumlah atribut pada dataset tanpa mengurangi informasi
+-t-SNE mengurangi dimensi dengan menjaga sampel-sampel yang mirip agar berdekatan, dan sebaliknya, sampel-sampel yang kurang mirip, berjauhan.
+-trik kernel? Ia adalah sebuah metode untuk mengubah data pada dimensi tertentu (misal 2D) ke dalam dimensi yang lebih tinggi (3D) sehingga dapat menghasilkan hyperplane yang optimal. Perhatikan gambar berikut
+-Exploratory data analysis atau EDA bertujuan sebagai analisa awal terhadap data dan melihat bagaimana kualitas data untuk meminimalkan potensi kesalahan di kemudian hari. 
+-Data preprocessing adalah tahap di mana data diolah lebih lanjut sehingga menjadi siap dipakai dalam pengembangan model ML. Dengan kata lain, proses ini mengubah dan mentransformasi fitur-fitur data ke dalam bentuk yang mudah diinterpretasikan dan diproses oleh algoritma machine learning. Termasuk di dalam data preprocessing adalah proses data cleaning dan data transformation.
+-Sigmoid atau Logistic Function. Fungsi ini berada di antara nilai 0 hingga 1 sehingga biasanya digunakan untuk memprediksi model probabilitas yang outputnya ada di kisaran 0 dan 1. Dengan kemiringan yang halus (smooth gradient) memungkinkan Gradient Descent (algoritma pengoptimalan yang mampu menemukan solusi optimal untuk berbagai masalah) berprogres pada setiap langkahnya. 
+-Fungsi ReLU bersifat kontinu meski kemiringannya berubah secara tiba-tiba dan nilai turunannya bernilai 0 pada z < 0. Akan tetapi, fungsi ini bekerja dengan sangat baik dan membuat jaringan bekerja secara efisien sehingga mempercepat waktu komputasi.
+-Perceptron adalah komponen dasar pembangun jaringan saraf tiruan.
+-Multi Layer Perceptron (MLP) adalah sebuah jaringan saraf yang terdiri dari satu layer input, satu atau lebih hidden layer, dan satu output layer. MLP yang memiliki banyak hidden layer disebut juga Deep Neural Network (DNN).
+-Algoritma backpopragation memungkinkan MLP untuk belajar membuat prediksi menjadi semakin baik dengan suatu teknik yang disebut chain rule.
+-Convolutional Layer Sebuah jaringan saraf biasa mengenali gambar berdasarkan piksel-piksel yang terdapat pada gambar. Teknik yang lebih optimal adalah dengan menggunakan convolutional layer di mana alih alih mengenali objek berdasarkan piksel-piksel, jaringan saraf dapat mengenali objek berdasarkan atribut-atribut yang memiliki lebih banyak informasi.
+-Pooling adalah proses untuk mengurangi resolusi gambar dengan tetap mempertahankan informasi pada gambar
+- TensorHub (TensorFlow Hub) adalah tempat mencari, mempublikasikan, dan menggunakan reusable machine learning model yang sudah ada.
+-TensorFlow(TF) adalah end-to-end open source platform yang dikembangkan oleh Google Brain dan sangat populer untuk pengembangan machine learning berskala besar.
+-Image data generator adalah sebuah fungsi yang sangat berguna untuk mempersiapkan data latih dan data testing yang akan diberikan ke model.
+-layer konvolusi adalah untuk mengekstraksi atribut pada gambar.
+-layer max pooling berguna untuk mereduksi resolusi gambar sehingga proses pelatihan MLP lebih cepat.
+-Algoritma genetik sangat berguna terutama dalam pencarian policy terbaik dengan waktu yang lebih cepat.
+-Algoritma Q-Learning sendiri adalah mencari runtutan aksi yang menghasilkan nilai Q tertinggi
+-Unsupervised learning mempelajari kemiripan yang ada antara tiap data tanpa label dan mengelompokkannya. 
+-Supervised learning mencocokkan data berdasarkan label yang telah disediakan. 
+-Reinforcement learning berusaha untuk mendapatkan hadiah sebanyak-banyaknya dan menghindari penalti sesering mungkin.
+-Federated learning merupakan konsep sistem pembelajaran mesin modern yang mengutamakan privasi serta kecerdasan sistem
+-Data pipelines merupakan arus data yang otomatis dan lancar dari satu tempat ke tempat berikutnya
